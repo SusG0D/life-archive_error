@@ -1,0 +1,157 @@
+2026-06-18 02:36:45.688 [error] [chat threads] error: relation "dm_threads" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:1:2365)
+    at async d (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:4108)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:5149)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:6256) {
+  length: 110,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '131',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:36:48.604 [error] [chat threads] error: relation "dm_threads" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:1:2365)
+    at async d (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:4108)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:5149)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:6256) {
+  length: 110,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '131',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:36:48.604 [error] [chat threads] error: relation "dm_threads" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:1:2365)
+    at async d (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:4108)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:5149)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:6256) {
+  length: 110,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '131',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+
+2026-06-18 02:36:45.688 [error] [chat threads] error: relation "dm_threads" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:1:2365)
+    at async d (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:4108)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:5149)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:6256) {
+  length: 110,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '131',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:57:35.217 [error] [chat threads] error: relation "dm_threads" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:1445)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:1:2365)
+    at async d (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:4108)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:5149)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:6256) {
+  length: 110,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '131',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:57:16.896 [error] [chat threads] error: relation "dm_threads" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:1445)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:1:2365)
+    at async d (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:4108)
+    at async l (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:5149)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__1yf505r._.js:10:6256) {
+  length: 110,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '131',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+

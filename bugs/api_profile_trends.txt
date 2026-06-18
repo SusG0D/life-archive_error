@@ -1,0 +1,52 @@
+2026-06-18 02:28:46.328 [error] [trends GET] error: relation "profile_trends" does not exist
+    at async s (.next/server/chunks/[root-of-the-server]__0oifgmo._.js:1:1445)
+    at async i (.next/server/chunks/[root-of-the-server]__1m726f6._.js:1:1678)
+    at async d (.next/server/chunks/[root-of-the-server]__1m726f6._.js:1:5736)
+    at async l (.next/server/chunks/[root-of-the-server]__1m726f6._.js:1:6777)
+    at async Module.E [as handler] (.next/server/chunks/[root-of-the-server]__1m726f6._.js:1:7884) {
+  length: 113,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '32',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:56:34.139 [error] [trends GET] error: relation "profile_trends" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:1445)
+    at async i (.next/server/chunks/[root-of-the-server]__1m726f6._.js:1:1678)
+    at async d (.next/server/chunks/[root-of-the-server]__1m726f6._.js:1:5736)
+    at async l (.next/server/chunks/[root-of-the-server]__1m726f6._.js:1:6777)
+    at async Module.E [as handler] (.next/server/chunks/[root-of-the-server]__1m726f6._.js:1:7884) {
+  length: 113,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '32',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+

@@ -1,0 +1,86 @@
+2026-06-18 02:23:29.629 [error] [entries POST] error: column "is_public" of relation "entries" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:1:1445)
+    at async c (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:27:1721)
+    at async u (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:30:4064)
+    at async l (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:30:5105)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:30:6212) {
+  length: 129,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '80',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_target.c',
+  line: '1066',
+  routine: 'checkInsertTargets'
+}
+
+____________________________________________________________________
+
+2026-06-18 02:23:09.101 [error] (node:4) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+2026-06-18 02:23:10.603 [error] [entries POST] error: column "is_public" of relation "entries" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:1:1445)
+    at async c (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:27:1721)
+    at async u (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:30:4064)
+    at async l (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:30:5105)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__0jx0r8z._.js:30:6212) {
+  length: 129,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '80',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_target.c',
+  line: '1066',
+  routine: 'checkInsertTargets'
+}
+
+____________________________________________________________________
+
+2026-06-18 02:19:25.185 [error] [profile GET] error: relation "profiles" does not exist
+    at async s (.next/server/chunks/[root-of-the-server]__06jgo33._.js:1:1445)
+    at async u (.next/server/chunks/[root-of-the-server]__0d4hggp._.js:1:3210)
+    at async d (.next/server/chunks/[root-of-the-server]__0d4hggp._.js:1:3605)
+    at async u (.next/server/chunks/[root-of-the-server]__0d4hggp._.js:3:5500)
+    at async l (.next/server/chunks/[root-of-the-server]__0d4hggp._.js:3:6541) {
+  length: 107,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '13',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}

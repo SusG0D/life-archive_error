@@ -1,0 +1,53 @@
+2026-06-18 02:36:48.902 [error] [invites GET] error: relation "group_chat_invites" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__00rqqi-._.js:3:964)
+    at async d (.next/server/chunks/[root-of-the-server]__00rqqi-._.js:9:4423)
+    at async u (.next/server/chunks/[root-of-the-server]__00rqqi-._.js:9:5464)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__00rqqi-._.js:9:6571) {
+  length: 117,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '72',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:36:48.902 [error] [invites GET] error: relation "group_chat_invites" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__00rqqi-._.js:3:964)
+    at async d (.next/server/chunks/[root-of-the-server]__00rqqi-._.js:9:4423)
+    at async u (.next/server/chunks/[root-of-the-server]__00rqqi-._.js:9:5464)
+    at async Module.f [as handler] (.next/server/chunks/[root-of-the-server]__00rqqi-._.js:9:6571) {
+  length: 117,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '72',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+

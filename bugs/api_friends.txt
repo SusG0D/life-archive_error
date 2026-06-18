@@ -1,0 +1,184 @@
+2026-06-18 02:36:32.670 [error] [friends GET] error: relation "friends" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:2633)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:3982)
+    at async l (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:5023) {
+  length: 106,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '93',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:36:49.703 [error] [friends GET] error: relation "friend_requests" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:2633)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:3982)
+    at async l (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:5023) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '113',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:50:10.995 [error] (node:4) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+2026-06-18 02:50:13.200 [error] [friends GET] error: relation "friend_requests" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:2633)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:3982)
+    at async l (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:5023) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '113',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+
+2026-06-18 02:36:49.703 [error] [friends GET] error: relation "friend_requests" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:2633)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:3982)
+    at async l (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:5023) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '113',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:36:32.670 [error] [friends GET] error: relation "friends" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0rnzygy._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:2633)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:3982)
+    at async l (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:5023) {
+  length: 106,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '93',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:57:17.705 [error] [friends GET] error: relation "friends" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:2633)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:3982)
+    at async l (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:5023) {
+  length: 106,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '93',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
+2026-06-18 02:57:15.267 [error] [friends GET] error: relation "friend_requests" does not exist
+    at async i (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:1445)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:1:2633)
+    at async d (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:3982)
+    at async l (.next/server/chunks/[root-of-the-server]__0hc9j2o._.js:10:5023) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '113',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+
+
