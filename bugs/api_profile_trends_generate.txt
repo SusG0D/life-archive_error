@@ -1,4 +1,4 @@
-2026-06-18 02:34:49.505 [error] (node:4) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+2026-06-18 18:13:51.486 [error] (node:4) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
 In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
 
 To prepare for this change:
@@ -6,30 +6,3 @@ To prepare for this change:
 - If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
 
 See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
-2026-06-18 02:34:51.065 [error] [trends generate] error: invalid input value for enum job_type: "compute_life_trends"
-    at async s (.next/server/chunks/[root-of-the-server]__0y89tw2._.js:1:1445)
-    at async l (.next/server/chunks/[root-of-the-server]__0y89tw2._.js:1:1805)
-    at async d (.next/server/chunks/[root-of-the-server]__0y89tw2._.js:4:4057)
-    at async l (.next/server/chunks/[root-of-the-server]__0y89tw2._.js:4:5098)
-    at async Module.E [as handler] (.next/server/chunks/[root-of-the-server]__0y89tw2._.js:4:6205) {
-  length: 114,
-  severity: 'ERROR',
-  code: '22P02',
-  detail: undefined,
-  hint: undefined,
-  position: '72',
-  internalPosition: undefined,
-  internalQuery: undefined,
-  where: undefined,
-  schema: undefined,
-  table: undefined,
-  column: undefined,
-  dataType: undefined,
-  constraint: undefined,
-  file: 'enum.c',
-  line: '129',
-  routine: 'enum_in'
-}
-
-
-

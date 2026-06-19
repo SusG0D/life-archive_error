@@ -1,0 +1,80 @@
+error /insights/generate
+
+2026-06-19 14:20:09.994 [error] (node:4) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+2026-06-19 14:20:11.976 [info] [generateInsights] starting for user e05f1bd4-2b83-4a2f-9363-879a045ed923
+2026-06-19 14:20:19.259 [info] [generateInsights] scored sentiment for 4 entries
+2026-06-19 14:20:19.476 [info] [embeddings] generating 32 missing embeddings
+2026-06-19 14:20:19.556 [error] [embeddings] failed for entry 3b714d71-3f49-4720-bca5-17984f998cc8: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:19.703 [error] [embeddings] failed for entry c549cfcd-9637-4209-a196-eb1bf7e86a59: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:19.783 [error] [embeddings] failed for entry 307f72ae-a0eb-463c-8db7-761a36971cab: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:19.897 [error] [embeddings] failed for entry cbef6565-abda-4077-b767-ee4a717e0b54: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:19.998 [error] [embeddings] failed for entry fd2ce76b-3730-4163-a2af-9ad1aa7670e6: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.102 [error] [embeddings] failed for entry 7188736f-e542-4e8a-8d89-ea6ec676e767: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.206 [error] [embeddings] failed for entry c2987bd1-c98c-475a-9709-e8bcc44f78c9: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.274 [error] [embeddings] failed for entry 2a04393d-cc4f-4ae3-b739-d62a5a4cfbe3: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.401 [error] [embeddings] failed for entry 0adb12e3-d8b0-42e0-ae7d-49a25342bf7e: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.500 [error] [embeddings] failed for entry 1d915b70-13ea-4a04-899b-cfe3f34869c5: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.610 [error] [embeddings] failed for entry ea9f70ce-c37b-4e77-88b9-3faed964800a: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.693 [error] [embeddings] failed for entry 4b62924f-6c22-4742-80a1-26b92cc7f134: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.805 [error] [embeddings] failed for entry dbf60ee1-f098-44ab-bfde-52ad2dbd023c: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:20.862 [error] [embeddings] failed for entry 86fafd12-0915-46b0-a012-90a2d708a3ef: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.008 [error] [embeddings] failed for entry 23cc74ef-1503-430e-8506-6c28a691cb3e: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.082 [error] [embeddings] failed for entry 1228cb9e-9c04-48f5-a970-7577d1105d0a: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.229 [error] [embeddings] failed for entry 193486af-f201-4677-930f-d9c4d577fd3e: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.325 [error] [embeddings] failed for entry ffa821c9-2558-42a3-b383-53b2b0236e86: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.431 [error] [embeddings] failed for entry 53fae51f-61f0-4b7a-8796-28cc0666b63c: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.513 [error] [embeddings] failed for entry 70151dbf-ac0f-42cd-9aae-b9d6b5c00e5d: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.621 [error] [embeddings] failed for entry 1c1b6b2f-0829-4d82-992e-994fab7fe8f5: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.711 [error] [embeddings] failed for entry 842aa0ed-3e59-40dd-a72e-cc774280f845: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.823 [error] [embeddings] failed for entry fadb2779-179d-4238-8bde-dff19700759a: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:21.931 [error] [embeddings] failed for entry 373455ba-9c98-4935-a705-d037bf6f5f5d: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.043 [error] [embeddings] failed for entry ca4b5d9a-44dd-4435-8f11-e049d0db806b: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.113 [error] [embeddings] failed for entry 10334ab1-9676-4245-a8ab-3905adc40504: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.238 [error] [embeddings] failed for entry 6046f01b-4824-4fe5-b7ea-eea53aff070b: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.320 [error] [embeddings] failed for entry edfd90bf-7b56-4d4e-a711-1e2fe5f876b3: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.453 [error] [embeddings] failed for entry d985dd04-bd12-4a1e-b75b-9c65e1d5fde2: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.509 [error] [embeddings] failed for entry 5b6f5ae4-e8f6-4865-a4d6-d725d8afa305: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.625 [error] [embeddings] failed for entry 335ecb72-9c6c-4faf-b048-565edfb77c5a: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.701 [error] [embeddings] failed for entry dcab1dee-71a0-4281-8c68-77dda5fee723: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+2026-06-19 14:20:22.701 [info] [generateInsights] 0 new embeddings generated
+2026-06-19 14:20:22.925 [info] [generateInsights] 6 findings to process
+2026-06-19 14:21:09.702 [error] Vercel Runtime Timeout Error: Task timed out after 60 seconds
